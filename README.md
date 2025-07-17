@@ -1,4 +1,4 @@
-# 🎉 Event Hall Management System | MERN Stack
+# 🎉 Hall Event Management System | MERN Stack
 
 A full-stack web application built using the **MERN stack** (MongoDB, Express.js, React, Node.js) to manage inquiries, event bookings and more for an event or banquet hall.
 
