@@ -20,23 +20,22 @@ A full-stack web application built using the **MERN stack** (MongoDB, Express.js
 ## 📁 Folder Structure
 
 EventManagement/
-├── BackEnd/ # Node-Express + MongoDB backend
-│ ├── controllers/ # Route logic
-│ ├── models/ # Mongoose schemas
-│ ├── routes/ # Express routes
-| ├── middleware/ # Multer(for uploading file locally then pushing it on cloudinary)
-│ ├── utils/ # Utility functions (e.g., email, cloudinary)
-│ ├── .env # Environment variables
-│ └── server.js # Entry point
+├── BackEnd/                        # Node-Express + MongoDB backend
+│   ├── controllers/                # Route logic
+│   ├── models/                     # Mongoose schemas
+│   ├── routes/                     # Express routes
+│   ├── middleware/                 # Multer (for uploading files locally before Cloudinary)
+│   ├── utils/                      # Utility functions (e.g., email, Cloudinary)
+│   ├── .env                        # Environment variables
+│   └── server.js                   # Backend entry point
 │
-├── FrontEnd/ # React + Tailwind frontend
-│ ├── components/ # Reusable components
-│ ├── pages/ # Route pages (Dashboard, BookingForm, etc.)
-│ ├── App.jsx # Root React component
-│ ├── main.jsx # React entry point
-│ ├── .env # Frontend environment variables
-│ └── vite.config.js # Vite configuration
+├── FrontEnd/                       # React + Tailwind frontend
+│   ├── components/                 # Reusable components
+│   ├── pages/                      # Route pages (Dashboard, BookingForm, etc.)
+│   ├── App.jsx                     # Root React component
+│   ├── main.jsx                    # React entry point
+│   ├── .env                        # Frontend environment variables
+│   └── vite.config.js              # Vite configuration
 │
-├── README.md # Project documentation
-└── .gitignore # Combined ignore file for both backend & frontend
-
+├── README.md                       # Project documentation
+└── .gitignore                      # Combined ignore file for both frontend & backend
