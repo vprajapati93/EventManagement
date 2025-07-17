@@ -1,0 +1,33 @@
+# ========== Global Node/React Ignore ==========
+node_modules
+dist
+dist-ssr
+*.local
+.env
+.env.*  # Ignore other environment variations like .env.production
+
+# ========== Folder-Specific ==========
+Backend/node_modules/
+Backend/.env
+FrontEnd/node_modules/
+FrontEnd/.env
+
+# ========== Logs ==========
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# ========== OS-specific ==========
+.DS_Store
+
+# ========== Editor-specific ==========
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Optional: Ignore build output (if present)
+build/
